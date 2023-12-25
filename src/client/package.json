@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx --bun vite",
+    "build": "tsc && bunx --bun vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "antd": "^5.12.5",
+    "bcrypt": "^5.1.1",
+    "preact": "^10.19.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.6.0",
+    "@types/bcrypt": "^5.0.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}
